@@ -1,0 +1,25 @@
+{
+  "slug": "sharptools_io",
+  "name": "SharpTools.io",
+  "version": "0.0.8.8",
+  "description": "SharpTools.io Add-on allows users to connect Home Assistant location and devices to SharpTools.io for the dashboard and Rule Engine automation.",
+  "image": "ghcr.io/sharptools-io/sharptools-hass-addon-connector-{arch}:0.0.8.8",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "panel_icon": "mdi:flash-circle",
+  "startup": "services",
+  "boot": "auto",
+  "ingress": true,
+  "ingress_port": 8099,
+  "homeassistant_api": true,
+  "auth_api": true,
+  "hassio_api": true,
+  "map": [],
+  "options": {
+    "LOG_LEVEL": "info"
+  },
+  "schema": {
+    "LOG_LEVEL": "list(debug|info|error)?"
+  },
+  "webui": "http://[HOST]:[PORT:8099]",
+  "watchdog": "http://[HOST]:[PORT:8099]/api/hass/watchdog"
+}
