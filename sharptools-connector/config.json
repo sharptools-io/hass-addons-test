@@ -3,7 +3,7 @@
   "name": "SharpTools.io",
   "version": "0.0.8.8",
   "description": "SharpTools.io Add-on allows users to connect Home Assistant location and devices to SharpTools.io for the dashboard and Rule Engine automation.",
-  "image": "ghcr.io/sharptools-io/sharptools-hass-addon-connector-{arch}:0.0.8.8",
+  "image": "ghcr.io/sharptools-io/sharptools-hass-addon-connector-{arch}",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "panel_icon": "mdi:flash-circle",
   "startup": "services",
