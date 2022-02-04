@@ -23,9 +23,6 @@
     "LOG_LEVEL": "list(debug|info|error)?",
     "LOG_TO_FILE": "bool"
   },
-  "schema": {
-    "LOG_LEVEL": "list(debug|info|error)?"
-  },
   "webui": "http://[HOST]:[PORT:8099]",
   "watchdog": "http://[HOST]:[PORT:8099]/api/hass/watchdog"
 }
