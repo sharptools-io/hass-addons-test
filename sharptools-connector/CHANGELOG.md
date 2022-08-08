@@ -1,8 +1,9 @@
 # Changelog
 
-## 1.0.4
+## 1.0.4/1.0.5
 
 - Update climate entity to ignore `null` values for `target_temp_high` and `target_temp_low` when setting temperature
+- Fix S6 Overlay Images: https://developers.home-assistant.io/blog/2022/05/12/s6-overlay-base-images/
 
 ## 1.0.3
 
