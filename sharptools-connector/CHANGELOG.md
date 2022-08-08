@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4
+
+- Update climate entity to ignore `null` values for `target_temp_high` and `target_temp_low` when setting temperature
+
 ## 1.0.3
 
 - Climate entity's target temperature attribute/argument conversion enhancements
