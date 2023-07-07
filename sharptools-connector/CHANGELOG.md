@@ -2,6 +2,7 @@
 
 ## 1.0.9
 - Include 'static' Album Art and Fan Speed metadata with events
+- Fix: Support 4-speed fan devices ([video](./media/hass-4-speed.mov))
 
 ## 1.0.7
 - Hotfix for an API change in Home Assistant 2023.4.x
