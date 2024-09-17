@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.0
+- Make `light` and `cover` service data excluded (use static definitions)
+- Improve logging if payload response size limit is exceeded (incl. calculated payload size)
+
 ## 1.0.9
 - Include 'static' Album Art and Fan Speed metadata with events
 - Fix: Support 4-speed fan devices ([video](./media/hass-4-speed.mov))
