@@ -1,2 +1,2 @@
-# hass-addons
-SharpTools Home Assistant Addon Installation Manifests
+# hass-addons-test
+SharpTools Home Assistant TEST Addon Installation Manifests
